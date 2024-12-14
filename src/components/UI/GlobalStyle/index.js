@@ -1,9 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 import { 
     lightBackgroundColor,
-    primaryFont,
     secondaryTextColor
 } from '../Variavel';
+import { primaryFont } from '../Font';
 
 export const GlobalStyle = createGlobalStyle`
     body {
