@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import { 
-    lightGrayBorderColor, 
-    primaryFont, 
+    lightGrayBorderColor,
     primaryTextColor, 
     textareaBackgroundColor, 
     warmYellowColor
 } from "../UI/Variavel";
+import { primaryFont } from "../UI/Font";
 
 export const Textarea = styled.textarea`
     width: calc(100% - 20px);
