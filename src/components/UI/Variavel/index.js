@@ -1,0 +1,14 @@
+export const lightBackgroundColor = "#f7f7f7";
+export const primaryTextColor = "#333333";
+export const containerBackgroundColor = "#ffffff";
+export const shadowBackgroundColor = "rgba(0, 0, 0, 0.1)";
+export const containerBorderColor = "#ddd";
+export const lightGrayBorderColor = "#ccc";
+export const pastelBlueColor = "#4a90e2";
+export const secondaryTextColor = "#7f8c8d";
+export const textareaBackgroundColor = "#fafafa";
+export const deepBlueColor = "#003d6b";
+export const softRedColor = "#e74c3c";
+export const deepRedColor = "#c0392b";
+export const warmYellowColor = "rgb(238, 187, 90)";
+export const successTextColor = "#2ecc71";
