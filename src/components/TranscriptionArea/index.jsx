@@ -26,9 +26,6 @@ const TranscriptionArea = () => {
     const [message, setMessage] = useState({});
     const textAreaRef = useRef(null);
 
-    console.log(message.msg);
-
-
     return (
         <ContentTranscriptionArea>
             <div>
