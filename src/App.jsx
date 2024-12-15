@@ -1,12 +1,13 @@
+import { BrowserRouter as Router } from "react-router-dom";
 import { GlobalStyle } from "./components/UI/GlobalStyle"
-import Home from "./views/Home"
+import RoutersApp from "./routers"
 
 function App() {
   return (
-    <>
-      <GlobalStyle/>
-      <Home />
-    </>
+    <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+      <GlobalStyle />
+      <RoutersApp />
+    </Router>
   )
 }
 
