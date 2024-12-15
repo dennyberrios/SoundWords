@@ -12,13 +12,12 @@ import Button from "../Button";
 export const ContentTranscriptionArea = styled.div`
     width: 700px;
 
-    padding: 20px;
+    padding: 20px 30px;
     background-color: ${containerBackgroundColor};
 
     border: 1px solid ${containerBorderColor};
     border-radius: 12px;
     box-shadow: 0 4px 10px ${shadowBackgroundColor};
-    padding: 30px;
     text-align: center;
 
     h1 {
