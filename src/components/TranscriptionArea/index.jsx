@@ -44,15 +44,44 @@ const TranscriptionArea = () => {
                     onClick={() => copyIcon(textAreaRef, setMessage)}
                     bg={"transparent"}
                     title="Copiar texto"
-                ><IoIosCopy size={22} color={secondaryTextColor} /></ButtonIcon>
+                >
+                    <IoIosCopy
+                        size={22}
+                        color={secondaryTextColor}
+                    />
+                </ButtonIcon>
                 <div className="box-span">
-                    <span style={message.success ? { color: successTextColor } : { color: softRedColor }}>{message.msg}</span>
+                    <span
+                        style={message.success ? {
+                            color: successTextColor
+                        } : {
+                            color: softRedColor
+                        }}
+                    >
+                        {message.msg}
+                    </span>
                 </div>
             </div>
             <div className="buttons">
-                <Button bg={pastelBlueColor} bgHover={deepBlueColor}>Iníciar</Button>
-                <Button bg={softRedColor} bgHover={deepRedColor}>Parar</Button>
-                <Button onClick={() => FuncClear(textAreaRef)} bg={pastelBlueColor} bgHover={deepBlueColor}>Limpar</Button>
+                <Button
+                    bg={pastelBlueColor}
+                    bgHover={deepBlueColor}
+                >
+                    Iníciar
+                </Button>
+                <Button
+                    bg={softRedColor}
+                    bgHover={deepRedColor}
+                >
+                    Parar
+                </Button>
+                <Button
+                    onClick={() => FuncClear(textAreaRef)}
+                    bg={pastelBlueColor}
+                    bgHover={deepBlueColor}
+                >
+                    Limpar
+                </Button>
             </div>
             <div className="footer">
                 <p>Projeto criado para transcrição de áudio para texto.</p>
