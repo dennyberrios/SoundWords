@@ -5,7 +5,11 @@ export function copyIcon(textRef, setMessage) {
         navigator.clipboard
         .writeText(textRef.current.value)
         .then(() => {
-            setMessage({msg:"Texto copiado com sucesso!", success: true});
+            if (textRef.current.value) {
+                setMessage({msg:"Texto copiado com sucesso!", success: true});
+            } else {
+                setMessage({msg:"O campo está vazio. Não há texto para copiar.", success: false});
+            }
         })
         .catch((err) => {
             setMessage({msg:"Falha ao copiar o texto.", success: false});
