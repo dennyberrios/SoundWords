@@ -11,7 +11,7 @@ const Header = () => {
                         <Link to={"/"}>Início</Link>
                     </li>
                     <li>
-                        <Link to={"/bloco-de-notas"}>Bloco de Notas</Link>
+                        <Link to={"/note-board"}>Bloco de Notas</Link>
                     </li>
                 </ul>
             </nav>
