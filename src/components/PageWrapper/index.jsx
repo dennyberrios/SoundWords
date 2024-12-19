@@ -7,7 +7,7 @@ const PageWrapper = ({ children }) => {
     const location = useLocation();
 
     // List of defined routes
-    const validRoutes = ["/"];
+    const validRoutes = ["/", "/note-board"];
 
     // Check that the current route is among the valid ones  
     const isValidRoute = validRoutes.includes(location.pathname);
