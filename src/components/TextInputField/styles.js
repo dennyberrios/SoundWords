@@ -8,7 +8,7 @@ import {
 import { primaryFont } from "../UI/Font";
 
 export const Textarea = styled.textarea`
-    width: calc(100% - 20px);
+    width: calc(100% - 24px);
     height: 150px;
     padding: 12px;
     border: 1px solid ${lightGrayBorderColor};
