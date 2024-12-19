@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { Textarea } from "./styles";
 
-const TextInputField = ({ value, placeholder, change, textAreaRef }) => {
+const TextInputField = ({ value, placeholder, change, textAreaRef, ...props }) => {
     return (
         <>
             <Textarea
@@ -10,6 +10,7 @@ const TextInputField = ({ value, placeholder, change, textAreaRef }) => {
                 placeholder={placeholder}
                 onChange={e => change(e.target.value)}
                 ref={textAreaRef}
+                {...props}
             ></Textarea>
         </>
     );
