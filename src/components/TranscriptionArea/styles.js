@@ -33,6 +33,7 @@ export const ContentTranscriptionArea = styled.div`
     }
 
     .box-TextInputField {
+        width: 100%;
         position: relative;
     }
 
