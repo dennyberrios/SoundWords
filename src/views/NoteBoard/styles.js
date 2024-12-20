@@ -16,6 +16,8 @@ export const StyleNoteBoard = styled.section`
     padding: 16px;
     border: 1px solid ${lightGrayBorderColor};
 
+    margin: 50px 0;
+
     h1 {
         text-align: center;
         color: ${pastelBlueColor};
