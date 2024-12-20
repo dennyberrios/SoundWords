@@ -1,0 +1,22 @@
+{
+    "notepad": [
+        {
+            "id": 1,
+            "annotation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quas consequatur sed odio voluptate possimus ut at sapiente dolore laborum.",
+            "date": "16/12/2024",
+            "time": "00:35:57"
+        },
+        {
+            "id": 2,
+            "annotation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quas consequatur sed odio voluptate possimus ut at sapiente dolore laborum.",
+            "date": "16/12/2024",
+            "time": "00:35:57"
+        },
+        {
+            "id": 3,
+            "annotation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quas consequatur sed odio voluptate possimus ut at sapiente dolore laborum.",
+            "date": "16/12/2024",
+            "time": "00:35:57"
+        }
+    ]
+}
