@@ -9,7 +9,7 @@ import {
 } from "../UI/Variavel";
 import Button from "../Button";
 
-export const ContentTranscriptionArea = styled.div`
+export const ContentTranscriptionArea = styled.form`
     width: 700px;
 
     padding: 20px 30px;
