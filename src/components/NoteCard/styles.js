@@ -8,12 +8,14 @@ import {
 import TextInputField from "../TextInputField";
 import Button from "../Button";
 
-export const StyleNoteCard = styled.div `
+export const StyleNoteCard = styled.form `
     background-color: ${textareaBackgroundColor};
     border: 1px solid ${lightGrayBorderColor};
     border-radius: 8px;
     padding: 16px;
     box-shadow: 0 2px 6px ${shadowBackgroundColor};
+
+    margin: 15px 0;
 
     display: flex;
     flex-direction: column;
